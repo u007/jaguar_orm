@@ -15,7 +15,7 @@ dependencies:
   jaguar_orm:
     ^2.2.7
     #path: ../orm
-  analyzer: ^0.34.3
+  analyzer: ^0.35.4
   build: ^1.0.0
   logging: ^0.11.0
   source_gen: ^0.9.0
