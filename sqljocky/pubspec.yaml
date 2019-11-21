@@ -2,16 +2,20 @@ name: jaguar_query_sqljocky
 description: MySQL (sqljocky) adapter for jaguar_query and jaguar_orm
 version: 2.2.4
 authors:
-- Ravi Teja Gudapati <tejainece@gmail.com>
-- Kevin Segaud <segaud.kevin@gmail.com>
+  - Ravi Teja Gudapati <tejainece@gmail.com>
+  - Kevin Segaud <segaud.kevin@gmail.com>
 homepage: https://github.com/Jaguar-dart/jaguar_orm
 documentation:
 
 environment:
-  sdk: '>=2.0.0 <3.0.0'
+  sdk: ">=2.0.0 <3.0.0"
 
 dependencies:
-  jaguar_query: ^2.2.4
+  jaguar_query:
+    git:
+      url: https://github.com/u007/jaguar_orm.git
+      ref: legacyV3
+      path: query
   sqljocky5: ^2.2.0
   path: ^1.6.2
 
